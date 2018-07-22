@@ -2,7 +2,7 @@ module FancyDance
   module InstanceMethods
 
     def twirl
-      "I'm twirling"
+      "I'm twirling!"
     end
 
     def jump
@@ -18,8 +18,8 @@ module FancyDance
    end
  end
 
- module ClassMethods
-   def metadata
+ module ClassMethods 
+   def metadata 
      "This class produces objects that love to dance."
     end
   end
